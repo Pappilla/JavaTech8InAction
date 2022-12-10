@@ -1,0 +1,17 @@
+class Main {  // Main is class name 
+  public static void main(String[] args) { 
+    System.out.println("Welcome to Java World!");
+    int a=20, b=10;
+// here int is datatype, a is variable 
+    System.out.println("Addition is "+(a+b));
+
+//Ex 2
+ for(int i=1;i<10;i++) {
+   if(i%2==0) {
+     System.out.println("Even "+i);
+   } else 
+   System.out.println("Odd "+i);
+ }   
+System.out.println("end!!!");
+  } 
+}
