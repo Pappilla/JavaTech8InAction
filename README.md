@@ -1,11 +1,57 @@
 # JavaTech8InAction
-Skip to content
+Java is one of the most popular object oriented programming language. 
+Java buzz words/features are: SSPORAPMIHDD
+Simple
+Secure
+Portable
+Object-oriented
+Robust
+Architecture-neutral (or) Platform Independent
+Multi-threaded
+Interpreted
+High performance
+Distributed
+Dynamic
 
+1.Simple means java program structure is simple and easy to understand. 
+
+language C and object-oriented programming concepts are similar to C++. In a java programming language, many complicated features like pointers, operator overloading, structures, unions, etc. have been removed. One of the most useful features is the garbage collector it makes java more simple.
+
+2.Secure
+Java is said to be more secure programming language because it does not have pointers concept, java provides a feature "applet" which can be embedded into a web application. The applet in java does not allow access to other parts of the computer, which keeps away from harmful programs like viruses and unauthorized access.
+
+3.Portable
+Portability is one of the core features of java which enables the java programs to run on any computer or operating system. For example, an applet developed using java runs on a wide variety of CPUs, operating systems, and browsers connected to the Internet.
+
+4.Object-oriented
+Java is said to be a pure object-oriented programming language. In java, everything is an object. It supports all the features of the object-oriented programming paradigm. The primitive data types java also implemented as objects using wrapper classes, but still, it allows primitive data types to archive high-performance.
+
+5.Robust
+Java is more robust because the java code can be executed on a variety of environments, java has a strong memory management mechanism (garbage collector), java is a strictly typed language, it has a strong set of exception handling mechanism, and many more.
+
+6.Architecture-neutral (or) Platform Independent
+Java has invented to archive "write once; run anywhere, any time, forever". The java provides JVM (Java Virtual Machine) to to archive architectural-neutral or platform-independent. The JVM allows the java program created using one operating system can be executed on any other operating system.
+
+7.Multi-threaded
+Java supports multi-threading programming, which allows us to write programs that do multiple operations simultaneously.
+
+8.Interpreted
+Java enables the creation of cross-platform programs by compiling into an intermediate representation called Java bytecode. The byte code is interpreted to any machine code so that it runs on the native machine.
+
+9.High performance
+Java provides high performance with the help of features like JVM, interpretation, and its simplicity.
+
+10.Distributed
+Java programming language supports TCP/IP protocols which enable the java to support the distributed environment of the Internet. Java also supports Remote Method Invocation (RMI), this feature enables a program to invoke methods across a network.
+
+11.Dynamic
+Java is said to be dynamic because the java byte code may be dynamically updated on a running system and it has a dynamic memory allocation and deallocation (objects and garbage collector).
 Java and Platform Independence
 Build once, Run anywhere
-Java is one of the most popular platform independent languages. Once we compile a java program and build a jar, we can run the jar (compiled java program) in any Operating System where a JVM is installed.
+
+
 What is ByteCode?
-The executable instructions are different in different operating systems. So, there are different JVM s for different operating systems. A JVM for windows is different from a JVM for mac.
+The executable instructions are different in different operating systems like windows, linux. So, there are different JVM s for different operating systems. A JVM for windows is different from a JVM for mac.
 JDK vs JVM VS JRE
 JVM
 Virtual machine that run the Java bytecode.
@@ -14,12 +60,18 @@ JRE
 JVM + Libraries + Other Components (to run applets and other java applications)
 JDK
 JRE + Compilers + Debuggers
+
 Classloaders and Types
 A Java program is made up of a number of custom classes (written by programmers like us) and core classes (which come pre-packaged with Java). When a program is executed, JVM needs to load the content of all the needed class. JVM uses a ClassLoader to find the classes.
 System Class Loader : Loads all classes from CLASSPATH
 Extension Class Loader : Loads all classes from extension directory
 Bootstrap Class Loader : Loads all the Java core files
 When JVM needs to find a class, it starts with System Class Loader. If it is not found, it checks with Extension Class Loader. If it not found, it goes to the Bootstrap Class Loader. If a class is still not found, a ClassNotFoundException is thrown.
+
+Datatypes:
+They are 8 datatypes in java.
+ 
+
 Language Basics
 Why do we need Wrapper Classes?
 Example 1
@@ -41,6 +93,7 @@ Object like creation from other types.. like String
 Are instances of Wrapper Classes Immutable?
 What is Immutability?
 Wrapper classes are final and immutable.
+
 What is Auto Boxing?
 	// Auto Boxing
 	Integer ten = 10;//new Integer(10);
@@ -57,6 +110,7 @@ Boxing and new instances - Auto Boxing helps in saving memory by reusing already
 		Integer nineD = 9;
 		System.out.println(nineC == nineD);// true
 		System.out.println(nineC.equals(nineD));// true
+
 Strings
 Are String's immutable?
 		//Strings are immutable
