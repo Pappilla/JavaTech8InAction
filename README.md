@@ -1,6 +1,7 @@
 # JavaTech8InAction
 Java is one of the most popular object oriented programming language. 
 Java buzz words/features are: SSPORAPMIHDD
+
 Simple
 Secure
 Portable
@@ -69,8 +70,18 @@ Bootstrap Class Loader : Loads all the Java core files
 When JVM needs to find a class, it starts with System Class Loader. If it is not found, it checks with Extension Class Loader. If it not found, it goes to the Bootstrap Class Loader. If a class is still not found, a ClassNotFoundException is thrown.
 
 Datatypes:
-They are 8 datatypes in java.
- 
+Java programming language has a rich set of data types. The data type is a category of data stored in variables. In java, data types are classified into two types and they are as follows.
+
+Primitive Data Types
+Non-primitive Data Types
+
+primitive data types includes byte, short, int, long, float, double  --> 0, char, and boolean(false/true).
+
+non-primitive data types are String, Array, List, Queue, Stack, Class, Interface, etc.
+
+
+‐---------------
+
 
 Language Basics
 Why do we need Wrapper Classes?
